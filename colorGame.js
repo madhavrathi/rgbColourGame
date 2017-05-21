@@ -75,22 +75,7 @@ function reset() {
 // });
 
 resetButton.addEventListener("click",function(){
-
-  h1.style.backgroundColor = "steelblue";
-  messageDisplay.textContent = "";
-  resetButton.textContent = "New Colors";
-
-  //generate all new colors
-  colors = generateRandomColors(numSquares);
-  //pick a new random color from array
-  pickedColor = pickColor();
-  //Change colorDisplay to match picked Color
-  colorDisplay.textContent = pickedColor;
-  //Change colors of squares
-  for (var i = 0; i < squares.length; i++) {
-    squares[i].style.backgroundColor = colors[i];
-  }
-
+reset();
 });
 
 colorDisplay.textContent = pickedColor;
