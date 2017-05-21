@@ -15,11 +15,18 @@ body{
   margin: 0 auto;
 }
 
-span{
-  color: white;
+#stripe{
+  background: white;
+  height: 30px;
+  text-align: center;
+  text-color: black;
 }
 
 h1{
   color: white;
   text-align: center;
+}
+
+.selected{
+  background: blue;
 }
