@@ -45,6 +45,9 @@ hardBtn.addEventListener("click",function(){
 resetButton.addEventListener("click",function(){
 
   h1.style.backgroundColor = "steelblue";
+  messageDisplay.textContent = "";
+  resetButton.textContent = "New Colors";
+
   //generate all new colors
   colors = generateRandomColors(numSquares);
   //pick a new random color from array
