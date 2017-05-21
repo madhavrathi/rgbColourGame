@@ -15,6 +15,10 @@ body{
   margin: 0 auto;
 }
 
+span{
+  color: white;
+}
+
 h1{
   color: white;
   text-align: center;
