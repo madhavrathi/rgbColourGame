@@ -96,6 +96,9 @@ for(var i=0; i < squares.length; i++){
       changeColors(clickedColor);
       h1.style.backgroundColor = pickedColor;
       resetButton.textContent = "Play Again?";
+      if (confirm('Well done, do you want to play again')){
+        reset()
+      }
     }
     else{
       this.style.backgroundColor = "#232323";
