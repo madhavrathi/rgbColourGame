@@ -51,6 +51,7 @@ h1{
 
 #message {
   color: steelblue;
+  font-family: fantasy;
   display: inline-block;
   width: 20%;
 }
