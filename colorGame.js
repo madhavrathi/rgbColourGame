@@ -24,6 +24,7 @@ for (var i = 0; i < modeButtons.length; i++) {
 function reset() {
 
   messageDisplay.textContent = "";
+  messageDisplay.textColor = 'red';
   resetButton.textContent = "New Colors";
 
   //generate all new colors

@@ -50,6 +50,7 @@ h1{
 }
 
 #message {
+  color: steelblue;
   display: inline-block;
   width: 20%;
 }
