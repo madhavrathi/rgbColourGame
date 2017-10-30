@@ -1,8 +1,13 @@
 body{
   background-color: #232323;
   margin: 0;
-  font-family: "Montserrat" , "Avenir";
+  font-family: "Dimitry", "Montserrat" , "Avenir";
 }
+@font-face {
+    font-family: twitch-shadow;
+    src: url("https://rawgit.com/nawazishali/nawazishali.github.io/master/fonts/dimitry.TTF");
+}
+
 
 .square{
   width: 30%;
