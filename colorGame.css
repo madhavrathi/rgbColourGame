@@ -80,3 +80,12 @@ button:hover {
   color: white;
   background: steelblue;
 }
+
+@font-face {
+  font-family: "sweetSensations";
+  src: url("/fonts/Sweet_Sensations.ttf");
+}
+
+.classyText{
+  font-family: 'sweetSensations';
+}
